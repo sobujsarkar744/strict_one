@@ -1,0 +1,147 @@
+/* ########################
+Template Name: STRICT || HTML Template;
+Authore: Md.Sobuj Sarkar;
+Version: 1.0.0;
+Created: 14 February 2021;
+File Description: Main CSS file of the template;
+################################################### */
+
+/* ########################
+01. General
+################################################### */ 
+
+/* ########################
+Typography
+################################################### */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    font-family:'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,h3,
+h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #2d3950;
+    margin: 0;
+    padding: 0;   
+}
+h2{font-size: 40px;
+}
+h1{font-size: 22px;
+}
+p{font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #999999;
+    margin: 0; 
+    padding: 0;   
+}
+a{font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2d3950;
+    text-decoration: none;    
+}
+/* ########################
+HEADER STYLE START HERE
+################################################### */
+header{
+    background-color: #f6f9f9;
+    padding: 20px 0;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+}
+.navigation .menu{
+    width: 70%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;  
+    padding:0 25px;
+
+}
+.navigation ul li:last-child a{
+    padding-right: 0;
+}
+.navigation ul li:hover a{
+    color: #15A4FA;
+}
+/* ########################
+HEADER STYLE START HERE
+################################################### */
+#banner{
+       background-image:url(../images/Banner.jpg);
+       height:800px;
+       background-position: center;
+       background-size: cover;
+       background-repeat:no-repeat ;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.banner-content{
+text-align: center;
+}
+.banner-content h2{
+    font-size: 120px;
+    line-height: 130px;
+    font-weight: 700;
+    color:#ffffff;
+    text-transform: uppercase;
+    }
+.banner-content p{
+        color:#ffffff;
+        margin: 30px 0;
+
+  }   
+.banner-content button{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color:#ffffff;
+    text-transform: uppercase;
+    height: 60px;
+    width: 175px;
+    background-color: transparent ;
+    border: 1px solid #15A4FA;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 50px 0;
+}   
+.banner-content button:hover{
+    color: #15A4FA;
+    transition: .5 ease-in-out;
+
+}
+.banner-content button:focus{
+    outline: none;
+}
